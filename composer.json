@@ -1,0 +1,22 @@
+{
+  "name": "bwowk/behat-stepflow-extension",
+  "description": "Behat extension to group a sequence of steps into a new step.",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Bruno Nogueira Nascimento Wowk",
+      "email": "bruno.wowk@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "^3.0"
+  },
+  "require": {
+    "behat/behat": "^3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {"psr-4": {"bwowk\\Behat\\StepFlow\\": "src/"}}
+}

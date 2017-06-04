@@ -1,0 +1,4 @@
+suites:
+    stepflow:
+        namespace: bwowk\Behat\StepFlow
+        psr4_prefix: bwowk\Behat\StepFlow
